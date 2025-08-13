@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/receive_data.php": {
+    "/receive_data.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
