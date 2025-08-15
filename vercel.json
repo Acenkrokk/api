@@ -6,7 +6,7 @@
   },
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/receive_data.php",
       "dest": "/receive_data.php",
       "methods": [
         "POST"
