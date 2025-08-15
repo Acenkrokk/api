@@ -1,13 +1,13 @@
 {
   "functions": {
-    "receive_data.php": {
+    "api/receive_data.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
   "routes": [
     {
-      "src": "/receive_data.php",
-      "dest": "/receive_data.php",
+      "src": "/api/(.*)",
+      "dest": "/api/$1",
       "methods": [
         "POST"
       ]
